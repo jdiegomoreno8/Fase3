@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: cursive;
+    background: #f9f9f9;
+}
+
+.contenedor {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+.topHeader {
+    width: 100%;
+    position: relative;
+}
+
+.topHeader img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.nav-menu {
+    background: #013ADF;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+#main {
+    background: #ffffff;
+    padding: 30px 15px;
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4c587a;
+}
+
+#content-page {
+    width: 63%;
+    float: left;
+    padding: 0 20px;
+}
+
+#aside {
+    width: 29%;
+    float: left;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 30px 0;
+}
+
+#aside ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+#aside ul li img {
+    width: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4c587a;
+}
+
+.item-multimedia {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ededed;
+}
+
+#aside ul {
+    margin: 0;
+    padding: 0;
+}
+
+.video {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.item-multimedia p {
+    text-align: justify;
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+footer {
+    background: #f3f3f3;
+    padding: 30px 15px;
+    float: left;
+    position: relative;
+    width: auto;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.footer-top {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #494949;
+    border-bottom: 1px solid #979696;
+    padding-bottom: 30px;
+}
+
+.grupo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.copy {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.column p {
+    margin: 0;
+}
+
+.topHeader {
+    background-image: url('img/encabezado.PNG');
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
